@@ -2,7 +2,7 @@ IntegraBank – Banking Application (Java 8, Spring Boot, Spring Security, H2 DB
 
 IntegraBank is a lightweight RESTful banking API designed to simulate real-world banking operations. It supports customer and account management, deposits, withdrawals, and internal fund transfers, all built using Java 8 and Spring Boot.
 
-Features
+##Features
 
 -CRUD operations for customers
 
@@ -20,7 +20,7 @@ Features
 
 
 
-Prerequisites
+##Prerequisites
 
 -Java 8
 
