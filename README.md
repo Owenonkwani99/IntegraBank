@@ -1,91 +1,19 @@
-# Banking Application using Java8, Spring Boot, Spring Security and H2 DB
+IntegraBank – Banking Application (Java 8, Spring Boot, Spring Security, H2 DB)
 
-RESTful API to simulate simple banking operations. 
+IntegraBank is a lightweight RESTful banking API designed to simulate real-world banking operations. It supports customer and account management, deposits, withdrawals, and internal fund transfers, all built using Java 8 and Spring Boot.
 
-## Requirements
+Features
 
-*	CRUD operations for customers and accounts.
-*	Support deposits and withdrawals on accounts.
-*	Internal transfer support (i.e. a customer may transfer funds from one account to another).
+-CRUD operations for customers
+-CRUD operations for accounts
+-Deposit and withdrawal support
+-Internal transfers between accounts
+-H2 in-memory database for quick development and testing
+-Swagger UI documentation
+-Secured using Spring 
 
+Prerequisites
 
-## Getting Started
-
-1. Checkout the project from GitHub
-
-```
-git clone https://github.com/sbathina/BankApp
-
-```
-2. Enable Lombok support on your IDE
-
-Refer to the following link for instructions:
-
-```
-https://projectlombok.org/setup/eclipse
-
-```
-3. Open IDE of your choice and Import as existing maven project in your workspace
-
-```
-- Import existing maven project
-- Run mvn clean install
-- If using STS, Run As Spring Boot App
-
-```
-4. Default port for the api is 8989
-
-
-### Prerequisites
-
-* Java 8
-* Spring Tool Suite 4 or similar IDE
-* [Maven](https://maven.apache.org/) - Dependency Management
-
-### Maven Dependencies
-
-```
-spring-boot-starter-actuator
-spring-boot-starter-data-jpa
-spring-boot-starter-security
-spring-boot-starter-web
-spring-boot-devtools
-h2 - Inmemory database
-lombok - to reduce boilerplate code
-springfox-swagger2
-springfox-swagger-ui
-spring-boot-starter-test
-spring-security-test
-
-```
-
-## Swagger
-
-Please find the Rest API documentation in the below url
-
-```
-http://localhost:8989/bank-api/swagger-ui.html
-
-```
-
-## H2 In-Memory Database
-
-Make sure to use jdbc:h2:mem:testdb as your jdbc url. If you intend to you use custom database name, please
-define datasource properties in application.yml
-
-```
-http://localhost:8989/bank-api/h2-console/
-
-```
-
-## Testing the Bank APP Rest Api
-
-1. Please use the Swagger url to perform CRUD operations. 
-
-2. Browse to <project-root>/src/test/resources to find sample requests to add customer and accounts.
-
-
-## Authors
-
-* **Shyam Bathina**
-
+-Java 8
+-Spring Tool Suite 4, IntelliJ IDEA, or any modern IDE
+=Maven 3+
