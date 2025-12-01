@@ -4,18 +4,24 @@ IntegraBank is a lightweight RESTful banking API designed to simulate real-world
 
 Features
 
-1.CRUD operations for customers
+-CRUD operations for customers
 
 -CRUD operations for accounts
 
 -Deposit and withdrawal support
+
 -Internal transfers between accounts
+
 -H2 in-memory database for quick development and testing
+
 -Swagger UI documentation
+
 -Secured using Spring 
 
 Prerequisites
 
 -Java 8
+
 -Spring Tool Suite 4, IntelliJ IDEA, or any modern IDE
+
 =Maven 3+
